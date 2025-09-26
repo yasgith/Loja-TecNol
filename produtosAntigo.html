@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- LINKS DO JQUERY E JQUERY MOBILE - CDN -->
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Loja Tech</title>
+
+</head>
+<body>
+    <!-- INÍCIO DA PÁGINA -->
+    <div data-role="page">
+        <!-- INÍCIO DO CABEÇALHO -->
+        <header data-role="header" data-position="fixed">
+            <h1>
+                <img src="imagens/logo.png" alt="Logomarca Tech" class="logo">
+                LOJA TECH
+            </h1>
+
+            <!-- INÍCIO DA NAVEGAÇÃO PRINCIPAL -->
+            <nav data-role="navbar">
+                <ul>
+                    <li>
+                        <a href="index.html" data-transition="slide" class="ui-btn ui-btn-icon-left ui-icon-home ui-btn-inline">Home</a>
+                    </li>
+                    <li>
+                        <a href="sobre.html" data-transition="slide" class="ui-btn ui-btn-icon-left ui-icon-heart ui-btn-inline">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="produtos.html" data-transition="slide" class="ui-btn ui-btn-b">Ver Produtos</a>
+                    </li>
+                    <li>
+                        <a href="carrinho.html" data-transition="slide" class="ui-btn ui-btn-icon-left ui-icon-shop ui-btn-inline">Carrinho <span class="cart-badge" id="cart-count">0</span></a>
+                    </li>
+                    <li>
+                        <a href="contato.html" data-transition="slide" class="ui-btn ui-btn-icon-left ui-icon-user ui-btn-inline">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- FIM DA NAVEGAÇÃO PRINCIPAL -->
+        </header>
+        <!-- FIM DO CABEÇALHO -->
+
+        <!-- INÍCIO DA ÁREA DE CONTEÚDO -->
+        <div data-role="content" class="ui-content ui-body ui-body-a ui-corner-all ui-shadow ui-responsive">
+            <section class="conteudo">
+                <h2>LISTA DE PRODUTOS DA LOJA TECH</h2>
+
+                <table data-role="table" id="my-table" class="ui-responsive ui-shadow tabela-centro">
+                    <thead>
+                        <tr>
+                            <th>NOME</th>
+                            <th>IMAGEM</th>
+                            <th>PREÇO</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="vertical-align: middle;">Teclado</td>
+                            <td style="vertical-align: middle;"><img src="imagens/Teclado.jpg" alt="Teclado" style="height: 10em;"></td>
+                            <td style="vertical-align: middle;">R$ 71,99</td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: middle;">Mouse</td>
+                            <td style="vertical-align: middle;"><img src="imagens/mouse.jpg" alt="Mouse" style="height: 5em;"></td>
+                            <td style="vertical-align: middle;">R$ 176,77</td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: middle;">HD Externo</td>
+                            <td style="vertical-align: middle;"><img src="imagens/hd.png" alt="HD Externo" style="height: 5em;"></td>
+                            <td style="vertical-align: middle;">R$ 277,88</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+                
+                
+            </section>
+        </div>
+        <!-- FIM DA ÁREA DE CONTEÚDO -->
+
+        <!-- INÍCIO DO RODAPÉ -->
+        <div>
+            <footer data-role="footer" data-position="fixed">
+                <h4>&#169 Loja Tech-Todos os Direitos Reservados - 2025</h4>
+            </footer>
+        </div>
+        <!-- FIM DO RODAPÉ -->
+        
+    </div>
+    <!-- FIM DA PÁGINA -->
+    
+</body>
+</html>

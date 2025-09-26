@@ -1,0 +1,26 @@
+/*ESTILIZAÇÃO DA LOGOMARCA*/
+.logo{
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+.conteudo, h2{
+    text-align: center;
+    align-items: center;
+}
+
+/*CENTRALIZA E ESTILIZA A TABELA*/
+.tabela-centro{
+    max-width: 500px;
+    margin: 100px auto;
+    border: 3px solid #007bff;
+}
+
+/*ESTILIZAÇÃO DE BORDAS NA PARTE INTERNA DA TABELA*/
+.tabela-centro th,
+.tabela-centro td{
+    border: 2px solid #007bff;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+}
